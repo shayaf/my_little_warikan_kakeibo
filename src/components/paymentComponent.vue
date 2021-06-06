@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import PaymentRepository from '../repositories/paymentRepository.js'
+import PaymentRepository from '@/repositories/paymentRepository.js'
 
 export default {
     name: "parent-component",

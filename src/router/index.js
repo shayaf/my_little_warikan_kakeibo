@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Index from '../views/Index.vue'
-import PaymentComponent from '../components/paymentComponent'
+import Index from '@/views/Index.vue'
+import PaymentComponent from '@/components/paymentComponent'
 Vue.use(VueRouter)
 
 const routes = [
