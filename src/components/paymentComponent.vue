@@ -1,6 +1,6 @@
 <template>
 <div>
-    <p class="title"> 支払い一覧: プロジェクトNo. {{$route.params.projectId}} </p>
+    <p class="title"> 支払い一覧: プロジェクトNo. {{ projectId }} </p>
     <div class="payment-view" v-for="payment in payments" :key="payment.paymentId">
         <p class="payment-name">
             {{ payment.name }} {{ payment.price }} 円
